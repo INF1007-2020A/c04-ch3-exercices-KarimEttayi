@@ -42,16 +42,14 @@ FAIL: test_square_root (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 22, in test_square_root
     'Mauvais calcul de la racine carré'
-AssertionError: Lists differ: [<function square at 0x7f1dbac6f158>, <fun[64 chars]158>] != [3.4641016151377544, 14.142135623730951, 4.47213595499958]
+AssertionError: Lists differ: [0.0, 0.0, 0.0] != [3.4641016151377544, 14.142135623730951, 4.47213595499958]
 
 First differing element 0:
-<function square at 0x7f1dbac6f158>
+0.0
 3.4641016151377544
 
-+ [3.4641016151377544, 14.142135623730951, 4.47213595499958]
-- [<function square at 0x7f1dbac6f158>,
--  <function square at 0x7f1dbac6f158>,
--  <function square at 0x7f1dbac6f158>] : Mauvais calcul de la racine carré
+- [0.0, 0.0, 0.0]
++ [3.4641016151377544, 14.142135623730951, 4.47213595499958] : Mauvais calcul de la racine carré
 
 ======================================================================
 FAIL: test_to_celsius (__main__.TestExercice)
